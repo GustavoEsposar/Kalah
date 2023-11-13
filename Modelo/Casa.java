@@ -1,24 +1,23 @@
 package Modelo;
 
 public class Casa {
-    private int quantidadeDeSementes;
-    private int id;
-    private Sementes quantSementes = new Sementes(quantidadeDeSementes);;
+    private int nome;
+    private int sementes;
 
     public Casa(int id) {
-        this.id = id;
-        quantSementes.setquantidadeDeSementes(0);
+        this.nome = id;
+        sementes = 4;
     }
 
-    public int getID(){
-        return id;
+    public int getNome(){
+        return nome;
     }
 
     /**
      * Pega a quantidadeDeSementes de sementes
      */
     public int getQuantidadeSementes() {
-        return quantidadeDeSementes;
+        return sementes;
     }
 
     /**
@@ -27,7 +26,7 @@ public class Casa {
      * @param quantidadeDeSementes -> sementes
      */
     public void adicionarSementes(int quantidadeDeSementes) {
-        quantSementes.adicionarSementes(quantidadeDeSementes);
+        sementes += quantidadeDeSementes;
     }
 
     /**
@@ -36,10 +35,10 @@ public class Casa {
      * @param quantidadeDeSementes -> sementes
      */
     public void removerSementes(int quantidadeDeSementes) {
-        quantSementes.removerSementes(quantidadeDeSementes);
+        sementes -= quantidadeDeSementes;
     }
 
     public String toString() {
-        return "Casa: " + quantidadeDeSementes + " sementes";
+        return "Casa: " + sementes + " sementes";
     }
 }

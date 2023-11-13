@@ -1,16 +1,20 @@
 package Modelo;
 
 public class Silo {
-    private Sementes quantSementes_Fazendeiro;
+    private int nome;
+    private int sementes;
 
     public Silo() {
-        // precisa ter um ID
-        quantSementes_Fazendeiro = new Sementes(0); // Jogo iniciado, 0 sementes no silo
+        nome = 7;
+        sementes = 0;
     }
 
-    public void SementesColocadas_Silo(int quantidadeDeSementes) { // Toda vez que o Silo receber uma semente essa
-                                                                   // classe deve ser utilizada
-        quantSementes_Fazendeiro.adicionarSementes(quantidadeDeSementes);
+    public void adicionarSemente(int quantidadeDeSementes) { // Toda vez que o Silo receber uma semente essa
+        sementes += quantidadeDeSementes;
+    }
+
+    public int getQuantidadeSementes(){
+        return sementes;
     }
 
 }
