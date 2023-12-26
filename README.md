@@ -1,13 +1,14 @@
 # **Projeto Kalah | Caderno de Engenharia**
+
 Integrantes da equipe:
----
+
 Gustavo B. Esposar\
 Igor M. Calille\
 Julio Cesar B. Filho\
 Lucas C. P. Graziano\
 Luis Felipe A. B. Matos\
 Pedro A. Krivochein
----
+
 <!-- TOC -->
 # Sumário
 
