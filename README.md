@@ -10,7 +10,6 @@ Pedro A. Krivochein
 ---
 
 ---
-
 # Requisitos
 
 O propósito do projeto é desenvolver o código-fonte de um jogo que
