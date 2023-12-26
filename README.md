@@ -1,14 +1,5 @@
 # **Projeto Kalah | Caderno de Engenharia**
 
-Integrantes da equipe:
-
-Gustavo B. Esposar\
-Igor M. Calille\
-Julio Cesar B. Filho\
-Lucas C. P. Graziano\
-Luis Felipe A. B. Matos\
-Pedro A. Krivochein
-
 <!-- TOC -->
 # Sumário
 
@@ -40,6 +31,15 @@ Pedro A. Krivochein
 
 <!-- /TOC -->
 ---
+### Integrantes da Equipe
+
+- Gustavo B. Esposar
+- Igor M. Calille
+- Julio Cesar B. Filho
+- Lucas C. P. Graziano
+- Luis Felipe A. B. Matos
+- Pedro A. Krivochein
+
 # Requisitos
 
 O propósito do projeto é desenvolver o código-fonte de um jogo que
