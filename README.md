@@ -1,15 +1,16 @@
 # **Projeto Kalah | Caderno de Engenharia**
-Integrantes da equipe:
----
-Gustavo B. Esposar\
-Igor M. Calille\
-Julio Cesar B. Filho\
-Lucas C. P. Graziano\
-Luis Felipe A. B. Matos\
-Pedro A. Krivochein
----
 
+<!-- TOC -->autoauto- [**Projeto Kalah | Caderno de Engenharia**](#projeto-kalah--caderno-de-engenharia)auto- [Sumário](#sumário)auto        - [Integrantes da Equipe](#integrantes-da-equipe)auto- [Requisitos](#requisitos)auto    - [Modelo de Casos de Uso](#modelo-de-casos-de-uso)auto    - [Critérios de Avaliação](#critérios-de-avaliação)auto- [Arquitetura](#arquitetura)auto    - [Vista de Desenho](#vista-de-desenho)auto    - [Vista de Cenários de Uso](#vista-de-cenários-de-uso)auto        - [História e Cenários - Semeadura](#história-e-cenários---semeadura)auto- [Implementação dos Requisitos Funcionais](#implementação-dos-requisitos-funcionais)auto    - [RF-1](#rf-1)auto    - [RF-2](#rf-2)auto    - [RF-3 e RF-4](#rf-3-e-rf-4)auto    - [RF-5](#rf-5)auto    - [RF-6](#rf-6)auto    - [RF-7](#rf-7)auto    - [RF-8](#rf-8)auto    - [RF-9](#rf-9)auto    - [RF-10 e RF-11](#rf-10-e-rf-11)auto    - [RF-12](#rf-12)auto    - [RF-13](#rf-13)auto    - [RF-14](#rf-14)auto    - [RF-15](#rf-15)auto    - [RF-16](#rf-16)auto    - [RF-17](#rf-17)auto    - [RF-18](#rf-18)auto    - [RF-19](#rf-19)autoauto<!-- /TOC -->
 ---
+### Integrantes da Equipe
+
+- Gustavo B. Esposar
+- Igor M. Calille
+- Julio Cesar B. Filho
+- Lucas C. P. Graziano
+- Luis Felipe A. B. Matos
+- Pedro A. Krivochein
+
 # Requisitos
 
 O propósito do projeto é desenvolver o código-fonte de um jogo que
