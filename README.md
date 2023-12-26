@@ -2,7 +2,7 @@
 
 <!-- TOC -->
 
-- [Integrantes da equipe]
+- [Integrantes da equipe](#integrantes-da-equipe)
 - [Requisitos](#requisitos)
     - [Modelo de Casos de Uso](#modelo-de-casos-de-uso)
     - [Critérios de Avaliação](#critérios-de-avaliação)
