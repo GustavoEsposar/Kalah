@@ -14,10 +14,9 @@ author:
 title: "**Projeto Kalah**"
 ---
 
-::: center
-![image](././fig/capa){width="0.7\\linewidth"} []{#fig:capa
-label="fig:capa"}
-:::
+
+![image](././fig/capa)
+
 
 # Requisitos
 
