@@ -1,25 +1,15 @@
+# **Projeto Kalah | Caderno de Engenharia**
+Integrantes da equipe:
 ---
-author:
-- |
-  **Caderno de Engenharia**\
-  Integrantes:\
-  ---------------\
-  Gustavo B. Esposar\
-  Igor M. Calille\
-  Julio Cesar B. Filho\
-  Lucas C. P. Graziano\
-  Luis Felipe A. B. Matos\
-  Pedro A. Krivochein\
-  ---------------\
-title: "**Projeto Kalah**"
+Gustavo B. Esposar\
+Igor M. Calille\
+Julio Cesar B. Filho\
+Lucas C. P. Graziano\
+Luis Felipe A. B. Matos\
+Pedro A. Krivochein
 ---
 
-
-::: center
-![image](fig/capa.jpg){width="0.7\\linewidth"} []{#fig:capa
-label="fig:capa"}
-:::
-
+---
 
 # Requisitos
 
@@ -62,7 +52,7 @@ Início de Jogo, Reinício de Jogo, Realização de Jogada, Captura das
 Sementes, Destruição de Sementes, Ganho de Turno, Verificação de Empate
 e Verificação de Vencedor.
 
-![Diagrama UML de Casos de Uso](././fig/casos_de_uso){#fig:casosdeuso
+![Diagrama UML de Casos de Uso](./fig//casos_de_uso.pdf){#fig:casosdeuso
 width="0.7\\linewidth"}
 
 ## Critérios de Avaliação
@@ -92,17 +82,13 @@ O projeto se dá por dois entregáveis mínimos, sendo eles:
 
 ## Vista de Desenho
 
-![Diagrama UML de Atividades](././fig/atividades){#fig:atividades
-width="0.9\\linewidth"}
+![Diagrama UML de Atividades](./fig//atividades.pdf)
 
-![Diagrama de Classes Conceituais do Domínio do Problema
-Kalah](./fig/DomainProblema){#fig:domainproblema width="0.9\\linewidth"}
+![Diagrama de Classes Conceituais do Domínio do Problema Kalah](./fig/DomainProblema.pdf)
 
-![Diagrama de Classes Conceituais do Domínio da Solução
-Lógica](./fig/DomainLogico){#fig:domainlogico width="0.9\\linewidth"}
+![Diagrama de Classes Conceituais do Domínio da Solução Lógica](./fig/DomainLogico.pdf)
 
-![Diagrama de Classes Conceituais do Domínio da Solução
-Java](./fig/DomainJava){#fig:domainjava width="1.0\\linewidth"}
+![Diagrama de Classes Conceituais do Domínio da Solução Java](./fig/DomainJava.pdf)
 
 ## Vista de Cenários de Uso
 
@@ -112,10 +98,12 @@ Java](./fig/DomainJava){#fig:domainjava width="1.0\\linewidth"}
 **COMO** um Fazendeiro,\
 **EU** quero realizar a semeadura de minhas sementes,\
 **PARA** dar procedência as demais semeaduras até a colheita final.\
+
 **CENÁRIO H1.C1:** Semeadura comum\
 **SABENDO** que o número de sementes em uma casa escolhida n › 0,\
 **QUANDO** ocorre a semeadura,\
 **ENTÃO** o número de sementes das casas seguintes s = s + 1\
+
 **CENÁRIO H1.C2:** Semeadura com apropriação\
 **SABENDO** que o número de sementes em uma casa escolhida n › 0,\
 **E** o número de sementes da casa oposta do fazendeiro vizinho m › 0\
@@ -123,6 +111,7 @@ Java](./fig/DomainJava){#fig:domainjava width="1.0\\linewidth"}
 que não possuía sementes,\
 **ENTÃO** o número de sementes das casas seguintes s = s + 1, e o número
 de sementes do armazém do fazendeiro a = a + \[sementes apropriadas\]\
+
 **CENÁRIO H1.C3:** Semeadura adicional\
 **SABENDO** que o número de sementes em uma casa escolhida n › 0,\
 **QUANDO** ocorre a semeadura e a última semente é semeada no armazém do
@@ -137,7 +126,7 @@ uma semeadura adicional.\
 
 (**RF-1**) envolvendo dois fazendeiros vizinhos
 
-![Implementação do RF-1](./fig/rf-1){#fig:rf-1 width="0.85\\linewidth"}
+![Implementação do RF-1](./fig/rf-1.jpg)
 
 É implementado através das variáveis de instancia ***f1 e f2***, objetos
 da classe ***Fazendeiro***.
@@ -146,7 +135,7 @@ da classe ***Fazendeiro***.
 
 (**RF-2**) administrando suas próprias fazendas.
 
-![Implementação do RF-2](./fig/rf-2){#fig:rf-2 width="0.7\\linewidth"}
+![Implementação do RF-2](./fig/rf-2.jpg)
 
 Cada objeto da ***classe Fazendeiro*** possui apenas sua variável de
 instância ***fazenda*** do tipo ***Fazenda***.
@@ -156,8 +145,7 @@ instância ***fazenda*** do tipo ***Fazenda***.
 (**RF-3**) Cada fazenda possui como estruturas um silo (**RF-4**) e 6
 casas que podem ou não conter sementes.
 
-![Implementação do RF-3 e 4](./fig/rf-3_4){#fig:rf-34
-width="0.8\\linewidth"}
+![Implementação do RF-3 e 4](./fig/rf-3_4.jpg)
 
 Objetos da ***classe Fazenda*** possuem as variáveis de instância
 ***silo*** e ***casas (lista)***, ambos instanciados no construtor da
@@ -169,7 +157,7 @@ referenciadas na lista.
 (**RF-5**) No início todas as casas de ambos os fazendeiros (12 casas)
 entram no período de semeadura contendo 4 sementes.
 
-![Implementação do RF-5](./fig/rf-5){#fig:rf-5 width="0.5\\linewidth"}
+![Implementação do RF-5](./fig/rf-5.jpg)
 
 Cada instância de objetos da ***classe Casa*** atribui 4 sementes à
 variável de instância ***sementes*** durante a inicialização pelo
@@ -180,7 +168,7 @@ construtor da ***classe Casa***.
 (**RF-6**) Um dos fazendeiros é selecionado para iniciar a semeadura na
 vizinhança
 
-![Implementação do RF-6](./fig/rf-6){#fig:rf-6 width="1.0\\linewidth"}
+![Implementação do RF-6](./fig/rf-6.jpg)
 
 O método construtor da ***classe ProcessadorDeJogada*** recebe como
 primeiro parâmetro a referência de um objeto do tipo ***Fazendeiro***,
@@ -192,7 +180,7 @@ entre eles.
 
 (**RF-7**) revezando entre eles ciclicamente.
 
-![Implementação do RF-7](./fig/rf-7){#fig:rf-7 width="0.7\\linewidth"}
+![Implementação do RF-7](./fig/rf-7.jpg)
 
 É feita uma seleção (*switch case*) da opção em que a última semente do
 jogador cai, de acordo com a lógica de semeadura do jogo Kalah. Como
@@ -205,7 +193,7 @@ podemos ver, há a opção ***SILO***, em que o jogar joga de novo, a opção
 (**RF-8**) Durante uma semeadura, o fazendeiro responsável naquele
 momento escolhe uma de suas casas contendo sementes
 
-![Implementação do RF-8](./fig/rf-8){#fig:rf-8 width="1.0\\linewidth"}
+![Implementação do RF-8](./fig/rf-8.jpg)
 
 Este requisito diz respeito ao fazendeiro ativo ter a opção de
 selecionar a casa que deseja realizar a ação de semeadura, no código, há
@@ -217,7 +205,7 @@ localizado na expressão lógica ***casaEscolhida.getQuantidadeSementes()
 
 (**RF-9**) e distribui sequencialmente,
 
-![Implementação do RF-9](./fig/rf-9){#fig:rf-9 width="1.0\\linewidth"}
+![Implementação do RF-9](./fig/rf-9.jpg)
 
 A implementação do processo de semear, que distribui sequencialmente uma
 semente para cada casa ou silo seguinte, com exceção do silo do
@@ -229,11 +217,10 @@ adversário, ocorre pela execução do método ***semear(casaEscolhida)***.
 casa, podendo ser a casa de seu vizinho se a mesma estiver no alcance da
 distribuição (**RF-11**) mas nunca no silo do vizinho.
 
-![Implementação do RF-10 e 11](./fig/rf-10_11-1){#fig:rf-1011-1
+![Implementação do RF-10 e 11](./fig/rf-10_11-1.jpg)
 width="1.0\\linewidth"}
 
-![Final da implementação dos RF-10 e 11](./fig/rf-10_11-2){#fig:rf-1011-2
-width="1.0\\linewidth"}
+![Final da implementação dos RF-10 e 11](./fig/rf-10_11-2.jpg)
 
 A implementação da distribuição de sementes no sentido anti-horário
 encontra-se no loop while, que também apresenta o controle de não
@@ -247,7 +234,7 @@ na sua vez de semear cair numa de suas casas e ela estiver vazia, o
 mesmo fazendeiro ganha o direito de apropriar-se das sementes da casa
 oposta na fazenda de seu vizinho,
 
-![Implementação do RF-12](./fig/rf-12){#fig:rf-12 width="0.65\\linewidth"}
+![Implementação do RF-12](./fig/rf-12.jpg)
 
 É implementado através da instrução ***case CASA_VAZIA*** dentro do
 switch case.
@@ -257,8 +244,7 @@ switch case.
 (**RF-13**) porém, tanto a última semente quanto as apropriadas são
 armazenadas no seu silo.
 
-![Implementação do RF-13](./fig/rf-13.png){#fig:rf-13
-width="1.0\\linewidth"}
+![Implementação do RF-13](./fig/rf-13.png)
 
 É implementado por meio do método ***apropriação*** que tem como
 argumento a casa relativa a ultima semente. Nele, pegamos os dois
@@ -272,7 +258,7 @@ sementes, fazemos a apropriação das mesmas para o fazendeiro que semear.
 fazendeiro que está semeando, neste caso, o fazendeiro recebe o direito
 de outra semeadura seguida.
 
-![Implementação do RF-14](./fig/rf-14){#fig:rf-14 width="0.4\\linewidth"}
+![Implementação do RF-14](./fig/rf-14.jpg)
 
 É implementado através da instrução ***case SILO***, fazendo com que o
 fazendeiro que está semeando tenha a possibilidade de outra semeadura.
@@ -282,7 +268,7 @@ fazendeiro que está semeando tenha a possibilidade de outra semeadura.
 (**RF-15**) Caso a semente pare numa casa que possui sementes, nada é
 feito e a semeadura encerra-se.
 
-![Implementação do RF-15](./fig/rf-15){#fig:rf-15 width="0.8\\linewidth"}
+![Implementação do RF-15](./fig/rf-15.jpg)
 
 É implementado através da instrução ***default***, alternando a
 permissão para semear entre os fazendeiros.
@@ -292,7 +278,7 @@ permissão para semear entre os fazendeiros.
 (**RF-16**) Quando um dos fazendeiros ficar sem sementes nas casas de
 sua fazenda, o período de semeadura é encerrado
 
-![Implementação do RF-16](./fig/rf-16){#fig:rf-16 width="1.0\\linewidth"}
+![Implementação do RF-16](./fig/rf-16.jpg)
 
 É implementado através da condição de parada do while block
 ***f1.temSementes() && f2.temSementes()***, fazendo com que o tempo de
@@ -304,7 +290,7 @@ semente nas casas.
 (**RF-17**) e o fazendeiro vizinho, que possui sementes, move todas as
 sementes de suas casas para o armazém.
 
-![Implementação do RF-17](./fig/rf-17){#fig:rf-17 width="0.8\\linewidth"}
+![Implementação do RF-17](./fig/rf-17.jpg)
 
 É implementado através do método ***transferirSementesSilo()***
 referentes a cada fazendeiro, fazendo com que todas as sementes das
@@ -316,7 +302,7 @@ casas de cada fazendeiro sejam movidas ao silo.
 silos e compara-se entre os fazendeiros, o fazendeiro que tiver mais
 sementes ganha o período de semeadura,
 
-![Implementação do RF-18](./fig/rf-18){#fig:rf-18 width="1.0\\linewidth"}
+![Implementação do RF-18](./fig/rf-18.jpg)
 
 É implementado através da condição de checagem de quantidades de
 sementes nos silos respectivos aos dois fazendeiros, fazendo com que
@@ -326,7 +312,7 @@ quem tiver o maior número ganhe.
 
 (**RF-19**) caso contrário ocorre empate de semeadura entre eles.
 
-![Implementação do RF-19](./fig/rf-19){#fig:rf-19 width="1.0\\linewidth"}
+![Implementação do RF-19](./fig/rf-19.jpg)
 
 É implementado através do método ***definirVencedor()*** com o argumento
 3 (que exemplifica a 'flag' de empate).
