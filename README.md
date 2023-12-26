@@ -15,7 +15,7 @@ title: "**Projeto Kalah**"
 ---
 
 
-![image](././fig/capa)
+![image](./fig/capa)
 
 
 # Requisitos
