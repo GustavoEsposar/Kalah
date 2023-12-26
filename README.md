@@ -81,8 +81,7 @@ Início de Jogo, Reinício de Jogo, Realização de Jogada, Captura das
 Sementes, Destruição de Sementes, Ganho de Turno, Verificação de Empate
 e Verificação de Vencedor.
 
-![Diagrama UML de Casos de Uso](./fig//casos_de_uso.pdf){#fig:casosdeuso
-width="0.7\\linewidth"}
+![Diagrama UML de Casos de Uso](./fig/casos_de_uso.jpg)
 
 ## Critérios de Avaliação
 
@@ -111,13 +110,13 @@ O projeto se dá por dois entregáveis mínimos, sendo eles:
 
 ## Vista de Desenho
 
-![Diagrama UML de Atividades](./fig//atividades.pdf)
+![Diagrama UML de Atividades](./fig/atividades.jpg)
 
-![Diagrama de Classes Conceituais do Domínio do Problema Kalah](./fig/DomainProblema.pdf)
+![Diagrama de Classes Conceituais do Domínio do Problema Kalah](./fig/DomainProblema.jpg)
 
-![Diagrama de Classes Conceituais do Domínio da Solução Lógica](./fig/DomainLogico.pdf)
+![Diagrama de Classes Conceituais do Domínio da Solução Lógica](./fig/DomainLogico.jpg)
 
-![Diagrama de Classes Conceituais do Domínio da Solução Java](./fig/DomainJava.pdf)
+![Diagrama de Classes Conceituais do Domínio da Solução Java](./fig/DomainJava.jpg)
 
 ## Vista de Cenários de Uso
 
